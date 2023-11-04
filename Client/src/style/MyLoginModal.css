@@ -1,0 +1,220 @@
+.modal-wrapper {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    background-color: rgba(121, 118, 125, 0.7);
+}
+
+.closebutton {
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    margin-top: -40px;
+    margin-left: -83px;
+}
+
+.rightTop {
+    display: flex;
+    align-self: flex-end;
+    justify-content: left;
+    width: 20px;
+    height: 20px;
+}
+
+.Login {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.centre {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.login {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 275px;
+    height: auto;
+    margin: 10px;
+}
+
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 328px;
+    max-height: 500px;
+    padding: 48px 84px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.input {
+    margin: 10px;
+    width: 275px;
+}
+
+.input2 {
+    margin: 10px;
+    width: 171px;
+}
+
+.unit {
+    margin: 5px;
+    width: 60px;
+
+}
+
+/* span{
+    margin-left: 10px;
+} */
+
+input {
+    padding: 5px;
+}
+
+.fa-xmark {
+    margin-top: 0px;
+    width: 22px;
+    height: 20px;
+}
+
+.btnL {
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: #000000;
+    background-color: #ffc102;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.profile {
+    margin-left: 48px;
+    width: 400px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.profileImg {
+    margin-left: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 44px;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+}
+
+.btn-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    background-color: #ffc102;
+    border-radius: 10px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
+    margin-left: 23px;
+}
+
+@media screen and (max-width:600px) {
+
+    .modal-container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 153px;
+        max-height: 430px;
+        padding: 48px 84px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .login {
+        width: 275px;
+        height: auto;
+        margin: 10px;
+        margin-left: -64px;
+    }
+
+    .closebutton {
+        display: flex;
+        justify-content: right;
+        position: fixed;
+        width: 100%;
+        margin-top: -57px;
+    }
+
+    .fa-xmark {
+        margin-left: 2px;
+        margin-top: 17px;
+    }
+
+    .btnL {
+        margin: 20px;
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        color: #000000;
+        margin-left: 22px;
+        background-color: #ffc102;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .profileImg {
+        align-items: center;
+        border-radius: 44px;
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        margin-left: 110px;
+        width: 50px;
+    }
+
+    .profile {
+        background-color: #ffffff;
+        height: 100px;
+        margin-left: 10px;
+        width: 400px;
+    }
+
+    .btnP {
+        background-color: #ffc102;
+        border-radius: 10px;
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+        height: 40px;
+        width: 150px;
+        margin-left: 22px;
+    }
+    
+
+}

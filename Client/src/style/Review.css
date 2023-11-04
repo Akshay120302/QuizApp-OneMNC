@@ -1,0 +1,86 @@
+.page {
+    overflow-y: scroll;
+    height: 573px;
+    padding: 20px;
+    margin: 20px;
+    background-color: blanchedalmond;
+    margin-top: 19px;
+}
+
+.fa-xmark {
+    margin-left: -213px;
+    margin-top: 35px;
+}
+
+.btnBoxR {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffebcd;
+    margin-top: -37px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 704px;
+    background-color: #fff;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.btnR {
+    background-color: #ffad00;
+    width: 82px;
+    height: 29px;
+    border-radius: 10px;
+    border-color: #ffad00d1;
+}
+
+.Heading {
+    font-family: 'Font Awesome 6 Free';
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .main.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+@media screen and (min-width:600px) {
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 789px;
+        background-color: #fff;
+    }
+
+    .page {
+        overflow-y: scroll;
+        height: 665px;
+        padding: 20px;
+        margin: 20px;
+        background-color: blanchedalmond;
+    }
+
+    .main .fa-xmark {
+        margin-left: -340px;
+        margin-top: 40px;
+    }
+}
